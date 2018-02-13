@@ -1,0 +1,46 @@
+.main {
+	min-height: calc(100% -  10.6em);
+	width: 100%;
+	padding: 2em;
+	ul {
+		margin: 0;
+		width: 30em;
+		padding: 2em;
+		border: 1px solid #999;
+		margin: 0 auto;
+		.alarm {
+			list-style: none;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			border-bottom: 1px solid #ddd;
+			padding: 1em;
+			&.alarm-active {
+				animation-name: anim;
+				animation-duration: 1s;
+				animation-iteration-count: infinite;
+				animation-direction: alternate;
+				animation-timing-function: linear;
+				background-color: #eee;
+				color: #333;
+				font-weight: bold;
+			}
+			.alarm-text {
+				flex-grow: 1;
+			}
+			.alarm-time {
+				align-self: center;
+				padding: 0 5px;
+			}
+			.alarm-controls {
+				align-self: flex-end;
+			}
+		}
+	}
+}
+
+@keyframes anim {
+	to {
+		background-color: #e50000;
+	}
+}

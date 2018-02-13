@@ -1,0 +1,4 @@
+export const ADD_ALARM = 'ADD_ALARM';
+export const SNOOZE_ALARM = 'SNOOZE_ALARM';
+export const CLEAR_ALARM = 'CLEAR_ALARM';
+export const DECREMENT_ALARMS = 'DECREMENT_ALARMS';

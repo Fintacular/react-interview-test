@@ -1,0 +1,9 @@
+.header {
+	background: #ccc;
+	padding: 2em;
+	text-align: center;
+	h1 {
+		color: #333;
+		text-transform: uppercase;
+	}
+}
