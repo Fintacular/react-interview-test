@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "classnames": "2.2.6",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "promise": "8.0.3",
     "raf": "3.4.1",
     "react": "^16.11.0",
